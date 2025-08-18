@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using System.Windows.Forms;
 
 namespace HotelManagement
 {
@@ -18,13 +19,14 @@ namespace HotelManagement
             data.Columns.Add("Guest LName", typeof(string));
             data.Columns.Add("Guest Address", typeof(string));
             data.Columns.Add("Guest Email", typeof(string));
-            data.Columns.Add("Guest CNumber", typeof(int));
+            data.Columns.Add("Guest CNumber", typeof(string));
             data.Columns.Add("No. of Adults", typeof(int));
             data.Columns.Add("No. of Children", typeof(int));
             data.Columns.Add("Type of Suites", typeof(string));
             data.Columns.Add("Add ons", typeof(string));
             data.Columns.Add("Check in", typeof(string));
             data.Columns.Add("Check out", typeof(string));
+            data.Columns.Add("No. of NS", typeof(int));
             data.Columns.Add("Total", typeof(double));
         }
     }

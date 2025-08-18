@@ -42,7 +42,7 @@ namespace HotelManagement
         public static int PremiumSuiteDoubleRoom = 20;
         public static int ExecutiveSuiteKingRoom = 20;
         public static int ExecutiveSuiteDoubleRoom = 20;
-        public static int PresidentialSuiteRoom = 20;
+        public static int PresidentialSuiteRoom = 10;
 
         public static string SelectedRoom = "";
 

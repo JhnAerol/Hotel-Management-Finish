@@ -17,14 +17,15 @@ namespace HotelManagement
             InitializeComponent();
             btnLogin.Focus();
         }
-        private string ID = "23-2024";
-        private string pass = "123456";
+
+        public static string ID = "23-2024";
+        public static string pass = "123456";
+        private Admin Admin = new Admin(ID, pass);
+
         bool isFormOpen = false;
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
-            
 
             if (txtAdminID.Text == ID || txtAdminPassword.Text == pass)
             {
@@ -32,8 +33,8 @@ namespace HotelManagement
                 {
                     txtAdminID.Clear();
                     txtAdminPassword.Clear();
-                    AdminDataForm adminForm = new AdminDataForm();
-                    adminForm.Show();
+                    AdminDataForm admin = new AdminDataForm();
+                    admin.Show();
                     this.Hide();
                 }
                 else if (txtAdminPassword.Text == pass && txtAdminID.Text != ID)
@@ -120,6 +121,7 @@ namespace HotelManagement
                 }
             }
         }
+        
 
         private void ShowPassword_Click(object sender, EventArgs e)
         {
@@ -380,7 +382,7 @@ namespace HotelManagement
             }
         }
 
-        private void Exit_Click(object sender, EventArgs e)
+        private void Back_Click(object sender, EventArgs e)
         {
             foreach (Form openformDashboard in Application.OpenForms)
             {

@@ -18,6 +18,7 @@ namespace HotelManagement
         public Dashboard()
         {
             InitializeComponent();
+            label1.Parent = picb;
         }
 
         private void btnBookNow_Click(object sender, EventArgs e)
@@ -59,6 +60,11 @@ namespace HotelManagement
                 login.Show();
             }
             
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

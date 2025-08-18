@@ -33,15 +33,16 @@
             this.lblAdminPassword = new System.Windows.Forms.Label();
             this.txtAdminPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.Exit = new System.Windows.Forms.Label();
             this.ShowPassword = new System.Windows.Forms.PictureBox();
             this.HidePassword = new System.Windows.Forms.PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Back = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ShowPassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HidePassword)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).BeginInit();
             this.SuspendLayout();
             // 
             // txtAdminID
@@ -54,16 +55,16 @@
             this.txtAdminID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtAdminID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtAdminID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAdminID.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdminID.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAdminID.ForeColor = System.Drawing.Color.DarkGray;
             this.txtAdminID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAdminID.Location = new System.Drawing.Point(206, 409);
-            this.txtAdminID.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.txtAdminID.Location = new System.Drawing.Point(122, 328);
+            this.txtAdminID.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdminID.Name = "txtAdminID";
             this.txtAdminID.PasswordChar = '\0';
             this.txtAdminID.PlaceholderText = "";
             this.txtAdminID.SelectedText = "";
-            this.txtAdminID.Size = new System.Drawing.Size(428, 58);
+            this.txtAdminID.Size = new System.Drawing.Size(303, 51);
             this.txtAdminID.TabIndex = 8;
             this.txtAdminID.Enter += new System.EventHandler(this.txtAdminID_Enter);
             this.txtAdminID.Leave += new System.EventHandler(this.txtAdminID_Leave);
@@ -71,22 +72,24 @@
             // lblAdminID
             // 
             this.lblAdminID.AutoSize = true;
-            this.lblAdminID.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdminID.Location = new System.Drawing.Point(357, 372);
+            this.lblAdminID.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdminID.Location = new System.Drawing.Point(261, 300);
+            this.lblAdminID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAdminID.Name = "lblAdminID";
-            this.lblAdminID.Size = new System.Drawing.Size(93, 24);
+            this.lblAdminID.Size = new System.Drawing.Size(30, 23);
             this.lblAdminID.TabIndex = 9;
-            this.lblAdminID.Text = "Admin ID";
+            this.lblAdminID.Text = "ID";
             // 
             // lblAdminPassword
             // 
             this.lblAdminPassword.AutoSize = true;
-            this.lblAdminPassword.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdminPassword.Location = new System.Drawing.Point(329, 514);
+            this.lblAdminPassword.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdminPassword.Location = new System.Drawing.Point(232, 407);
+            this.lblAdminPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAdminPassword.Name = "lblAdminPassword";
-            this.lblAdminPassword.Size = new System.Drawing.Size(156, 24);
+            this.lblAdminPassword.Size = new System.Drawing.Size(88, 23);
             this.lblAdminPassword.TabIndex = 11;
-            this.lblAdminPassword.Text = "Admin Password";
+            this.lblAdminPassword.Text = "Password";
             // 
             // txtAdminPassword
             // 
@@ -98,16 +101,16 @@
             this.txtAdminPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtAdminPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtAdminPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAdminPassword.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.txtAdminPassword.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAdminPassword.ForeColor = System.Drawing.Color.DarkGray;
             this.txtAdminPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtAdminPassword.Location = new System.Drawing.Point(206, 549);
-            this.txtAdminPassword.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.txtAdminPassword.Location = new System.Drawing.Point(121, 434);
+            this.txtAdminPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtAdminPassword.Name = "txtAdminPassword";
             this.txtAdminPassword.PasswordChar = '\0';
             this.txtAdminPassword.PlaceholderText = "";
             this.txtAdminPassword.SelectedText = "";
-            this.txtAdminPassword.Size = new System.Drawing.Size(428, 58);
+            this.txtAdminPassword.Size = new System.Drawing.Size(304, 51);
             this.txtAdminPassword.TabIndex = 10;
             this.txtAdminPassword.Enter += new System.EventHandler(this.txtAdminPassword_Enter);
             this.txtAdminPassword.Leave += new System.EventHandler(this.txtAdminPassword_Leave);
@@ -122,31 +125,22 @@
             this.btnLogin.FillColor = System.Drawing.Color.Black;
             this.btnLogin.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(297, 655);
+            this.btnLogin.Location = new System.Drawing.Point(191, 517);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(232, 58);
+            this.btnLogin.Size = new System.Drawing.Size(166, 46);
             this.btnLogin.TabIndex = 12;
             this.btnLogin.Text = "Log in";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // Exit
-            // 
-            this.Exit.AutoSize = true;
-            this.Exit.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.Location = new System.Drawing.Point(388, 737);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(48, 24);
-            this.Exit.TabIndex = 15;
-            this.Exit.Text = "Exit";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // ShowPassword
             // 
             this.ShowPassword.BackColor = System.Drawing.Color.White;
             this.ShowPassword.Image = global::HotelManagement.Properties.Resources.view;
-            this.ShowPassword.Location = new System.Drawing.Point(576, 561);
+            this.ShowPassword.Location = new System.Drawing.Point(373, 444);
+            this.ShowPassword.Margin = new System.Windows.Forms.Padding(2);
             this.ShowPassword.Name = "ShowPassword";
-            this.ShowPassword.Size = new System.Drawing.Size(40, 35);
+            this.ShowPassword.Size = new System.Drawing.Size(41, 34);
             this.ShowPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ShowPassword.TabIndex = 13;
             this.ShowPassword.TabStop = false;
@@ -156,9 +150,10 @@
             // 
             this.HidePassword.BackColor = System.Drawing.Color.White;
             this.HidePassword.Image = global::HotelManagement.Properties.Resources.hide;
-            this.HidePassword.Location = new System.Drawing.Point(576, 561);
+            this.HidePassword.Location = new System.Drawing.Point(373, 444);
+            this.HidePassword.Margin = new System.Windows.Forms.Padding(2);
             this.HidePassword.Name = "HidePassword";
-            this.HidePassword.Size = new System.Drawing.Size(40, 35);
+            this.HidePassword.Size = new System.Drawing.Size(41, 34);
             this.HidePassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.HidePassword.TabIndex = 14;
             this.HidePassword.TabStop = false;
@@ -169,10 +164,9 @@
             // 
             this.guna2PictureBox2.Image = global::HotelManagement.Properties.Resources.image_removebg_preview;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(294, 96);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(196, 77);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(237, 182);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(158, 118);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 7;
             this.guna2PictureBox2.TabStop = false;
@@ -180,20 +174,32 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HotelManagement.Properties.Resources.Login;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1744, 1031);
+            this.pictureBox1.Size = new System.Drawing.Size(1166, 730);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // Back
+            // 
+            this.Back.Image = global::HotelManagement.Properties.Resources.back;
+            this.Back.Location = new System.Drawing.Point(12, 12);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(65, 56);
+            this.Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Back.TabIndex = 16;
+            this.Back.TabStop = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1744, 1029);
-            this.Controls.Add(this.Exit);
+            this.ClientSize = new System.Drawing.Size(1163, 730);
+            this.Controls.Add(this.Back);
             this.Controls.Add(this.ShowPassword);
             this.Controls.Add(this.HidePassword);
             this.Controls.Add(this.btnLogin);
@@ -204,7 +210,6 @@
             this.Controls.Add(this.guna2PictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -212,6 +217,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.HidePassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -228,6 +234,6 @@
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private System.Windows.Forms.PictureBox ShowPassword;
         private System.Windows.Forms.PictureBox HidePassword;
-        private System.Windows.Forms.Label Exit;
+        private System.Windows.Forms.PictureBox Back;
     }
 }
