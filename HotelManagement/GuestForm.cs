@@ -18,7 +18,6 @@ namespace HotelManagement
     public partial class GuestForm : Form
     {
         private List<Panel> activePanels = new List<Panel>();
-        
         public string roomName;
         //public static int currentIndex;
         AdminDataForm admin = new AdminDataForm();
@@ -42,6 +41,8 @@ namespace HotelManagement
         public GuestForm()
         {
             InitializeComponent();
+            checkinpicker.Value = DateTime.Today;
+            checkoutpicker.Value = DateTime.Today;
         }
 
         private void LblPriceRoom_TextChanged(object sender, EventArgs e)
@@ -363,7 +364,8 @@ namespace HotelManagement
         {
             if (checkinpicker.Value < DateTime.Today)
             {
-                MessageBox.Show("Cannot proceed double check your reservation date", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, "Cannot proceed double check your reservation date", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             else
             {
@@ -377,7 +379,8 @@ namespace HotelManagement
         {
             if (checkoutpicker.Value < checkinpicker.Value)
             {
-                MessageBox.Show("Cannot proceed double check your reservation date", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, "Cannot proceed double check your reservation date", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             else
             {
@@ -396,6 +399,10 @@ namespace HotelManagement
 
             DaysDiff = (checkout - checkin).Days;
 
+            if (DaysDiff ==  0)
+            {
+                DaysDiff = 1;
+            }
 
             lblNightStay.Text = $"{Math.Abs(DaysDiff)} Night stay";
         }
@@ -1317,22 +1324,16 @@ namespace HotelManagement
 
             string input = txtExpiry.Text;
 
-            if (!string.IsNullOrEmpty(input) && input.Length >= 2) // Ensure the text is not empty and has at least 2 characters
+            if (!string.IsNullOrEmpty(input) && input.Length >= 2) 
             {
+                DateTime currentDate = DateTime.Now;
+
                 string firstTwoDigits = input.Substring(0, 2);
                 string lastTwoDigit = input.Substring(3, 4);
-                string getfirstnumber = input.Substring(0, 1);
                 int ConvertFTD = Convert.ToInt32(firstTwoDigits);
                 int ConvertLTD = Convert.ToInt32(lastTwoDigit);
-                int ConvertGFN = Convert.ToInt32(getfirstnumber);
 
-                if (ConvertFTD > 12 || ConvertFTD <= 0 || ConvertLTD <= 0)
-                {
-                    MessageBox.Show("Invalid Input Date", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    txtExpiry.Clear();
-                    txtExpiry.Focus();
-                }
-                else if (ConvertFTD < 12 || ConvertLTD < 2024)
+                if (ConvertFTD < currentDate.Month || ConvertLTD < currentDate.Year)
                 {
                     MessageBox.Show("Sorry, Your card is Expired", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     txtExpiry.Clear();

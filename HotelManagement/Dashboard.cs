@@ -25,7 +25,7 @@ namespace HotelManagement
         {
             foreach (Form openformGuestForm in Application.OpenForms)
             {
-                if (openformGuestForm.Name == "GuestForm") // Replace with the actual form name
+                if (openformGuestForm.Name == "GuestForm") 
                 {
                     isFormOpen = true;
                     openformGuestForm.BringToFront();
@@ -45,7 +45,7 @@ namespace HotelManagement
         {
             foreach (Form openformLogin in Application.OpenForms)
             {
-                if (openformLogin.Name == "Login") // Replace with the actual form name
+                if (openformLogin.Name == "Login") 
                 {
                     isFormOpen = true;
                     openformLogin.BringToFront();

@@ -19,7 +19,6 @@ namespace HotelManagement
         {
             InitializeComponent();
             dataGridView1.DataSource = SharedData.data;
-            dataGridView1.Columns[0].ReadOnly = true;
             dataGridView1.Columns[10].ReadOnly = true;
             dataGridView1.Columns[6].ReadOnly = true;
             dataGridView1.Columns[7].ReadOnly = true;
@@ -127,6 +126,7 @@ namespace HotelManagement
             DialogResult result = MessageBox.Show("Are you sure you want to Update this row ?", "Remove", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
+                var roomNumber = dataGridView1.Rows[r].Cells[0].Value;
                 var valueRoom = dataGridView1.Rows[r].Cells[8].Value;
                 var valueAddons = dataGridView1.Rows[r].Cells[9].Value;
                 var valueNS = dataGridView1.Rows[r].Cells[12].Value;

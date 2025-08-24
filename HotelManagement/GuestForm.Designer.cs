@@ -684,6 +684,7 @@
             this.txtGuestCNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtGuestCNumber.Location = new System.Drawing.Point(73, 526);
             this.txtGuestCNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtGuestCNumber.MaxLength = 11;
             this.txtGuestCNumber.Name = "txtGuestCNumber";
             this.txtGuestCNumber.PasswordChar = '\0';
             this.txtGuestCNumber.PlaceholderText = "";
@@ -3202,9 +3203,9 @@
             this.ClientSize = new System.Drawing.Size(1551, 898);
             this.Controls.Add(this.guna2PictureBox16);
             this.Controls.Add(this.panelCart);
+            this.Controls.Add(this.panelInfo);
             this.Controls.Add(this.panelAddons);
             this.Controls.Add(this.panelBooking);
-            this.Controls.Add(this.panelInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GuestForm";

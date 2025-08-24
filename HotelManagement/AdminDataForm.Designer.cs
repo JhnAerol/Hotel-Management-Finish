@@ -127,7 +127,7 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-1, 66);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(1329, 690);
@@ -144,7 +144,7 @@
             this.panelData.Controls.Add(this.btnDelete);
             this.panelData.Controls.Add(this.dataGridView1);
             this.panelData.Location = new System.Drawing.Point(215, 137);
-            this.panelData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelData.Margin = new System.Windows.Forms.Padding(4);
             this.panelData.Name = "panelData";
             this.panelData.Size = new System.Drawing.Size(1334, 763);
             this.panelData.TabIndex = 1;
@@ -228,7 +228,7 @@
             this.panel2.Controls.Add(this.btnAvRoom);
             this.panel2.Controls.Add(this.btnGData);
             this.panel2.Location = new System.Drawing.Point(1, 137);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(214, 763);
             this.panel2.TabIndex = 2;
@@ -297,7 +297,7 @@
             this.panelAvailableRooms.Controls.Add(this.panel4);
             this.panelAvailableRooms.Controls.Add(this.panel1);
             this.panelAvailableRooms.Location = new System.Drawing.Point(215, 135);
-            this.panelAvailableRooms.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelAvailableRooms.Margin = new System.Windows.Forms.Padding(4);
             this.panelAvailableRooms.Name = "panelAvailableRooms";
             this.panelAvailableRooms.Size = new System.Drawing.Size(1334, 760);
             this.panelAvailableRooms.TabIndex = 2;
@@ -310,7 +310,7 @@
             this.panel18.Controls.Add(this.label18);
             this.panel18.Controls.Add(this.pictureBox9);
             this.panel18.Location = new System.Drawing.Point(517, 496);
-            this.panel18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel18.Margin = new System.Windows.Forms.Padding(4);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(296, 230);
             this.panel18.TabIndex = 8;
@@ -320,7 +320,7 @@
             this.panel19.BackColor = System.Drawing.Color.White;
             this.panel19.Controls.Add(this.lblAvPS);
             this.panel19.Location = new System.Drawing.Point(205, 172);
-            this.panel19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel19.Margin = new System.Windows.Forms.Padding(4);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(91, 58);
             this.panel19.TabIndex = 1;
@@ -350,7 +350,7 @@
             // 
             this.pictureBox9.Image = global::HotelManagement.Properties.Resources.Premium_Suite;
             this.pictureBox9.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(295, 172);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -364,7 +364,7 @@
             this.panel16.Controls.Add(this.panel17);
             this.panel16.Controls.Add(this.pictureBox8);
             this.panel16.Location = new System.Drawing.Point(1011, 261);
-            this.panel16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(296, 213);
             this.panel16.TabIndex = 7;
@@ -385,7 +385,7 @@
             this.panel17.BackColor = System.Drawing.Color.White;
             this.panel17.Controls.Add(this.lblAvESD);
             this.panel17.Location = new System.Drawing.Point(205, 155);
-            this.panel17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(91, 58);
             this.panel17.TabIndex = 1;
@@ -404,7 +404,7 @@
             // 
             this.pictureBox8.Image = global::HotelManagement.Properties.Resources.Executive_Suite_Double;
             this.pictureBox8.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(295, 155);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -418,7 +418,7 @@
             this.panel14.Controls.Add(this.panel15);
             this.panel14.Controls.Add(this.pictureBox7);
             this.panel14.Location = new System.Drawing.Point(685, 261);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(296, 213);
             this.panel14.TabIndex = 5;
@@ -439,7 +439,7 @@
             this.panel15.BackColor = System.Drawing.Color.White;
             this.panel15.Controls.Add(this.lblAvESK);
             this.panel15.Location = new System.Drawing.Point(205, 155);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(91, 58);
             this.panel15.TabIndex = 1;
@@ -458,7 +458,7 @@
             // 
             this.pictureBox7.Image = global::HotelManagement.Properties.Resources.Executive_Suite_King;
             this.pictureBox7.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(295, 155);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -472,7 +472,7 @@
             this.panel12.Controls.Add(this.panel13);
             this.panel12.Controls.Add(this.pictureBox6);
             this.panel12.Location = new System.Drawing.Point(356, 261);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(296, 213);
             this.panel12.TabIndex = 6;
@@ -493,7 +493,7 @@
             this.panel13.BackColor = System.Drawing.Color.White;
             this.panel13.Controls.Add(this.lblAvPSD);
             this.panel13.Location = new System.Drawing.Point(205, 155);
-            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(91, 58);
             this.panel13.TabIndex = 1;
@@ -512,7 +512,7 @@
             // 
             this.pictureBox6.Image = global::HotelManagement.Properties.Resources.Premium_Suite_Double;
             this.pictureBox6.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(295, 155);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -526,7 +526,7 @@
             this.panel10.Controls.Add(this.label10);
             this.panel10.Controls.Add(this.pictureBox5);
             this.panel10.Location = new System.Drawing.Point(29, 261);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(296, 213);
             this.panel10.TabIndex = 5;
@@ -536,7 +536,7 @@
             this.panel11.BackColor = System.Drawing.Color.White;
             this.panel11.Controls.Add(this.lblAvPSK);
             this.panel11.Location = new System.Drawing.Point(205, 155);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(91, 58);
             this.panel11.TabIndex = 1;
@@ -566,7 +566,7 @@
             // 
             this.pictureBox5.Image = global::HotelManagement.Properties.Resources.Premium_Suite_King;
             this.pictureBox5.Location = new System.Drawing.Point(1, -7);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(295, 162);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -580,7 +580,7 @@
             this.panel8.Controls.Add(this.panel9);
             this.panel8.Controls.Add(this.pictureBox4);
             this.panel8.Location = new System.Drawing.Point(1009, 34);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(296, 213);
             this.panel8.TabIndex = 4;
@@ -601,7 +601,7 @@
             this.panel9.BackColor = System.Drawing.Color.White;
             this.panel9.Controls.Add(this.lblAvGDD);
             this.panel9.Location = new System.Drawing.Point(205, 155);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(91, 58);
             this.panel9.TabIndex = 1;
@@ -620,7 +620,7 @@
             // 
             this.pictureBox4.Image = global::HotelManagement.Properties.Resources.Grand_Deluxe_Twin;
             this.pictureBox4.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(295, 155);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -634,7 +634,7 @@
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Location = new System.Drawing.Point(684, 33);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(296, 213);
             this.panel6.TabIndex = 3;
@@ -644,7 +644,7 @@
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.lblAvGDK);
             this.panel7.Location = new System.Drawing.Point(205, 155);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(91, 58);
             this.panel7.TabIndex = 1;
@@ -674,7 +674,7 @@
             // 
             this.pictureBox3.Image = global::HotelManagement.Properties.Resources.Grand_Deluxe_King;
             this.pictureBox3.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(295, 155);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -688,7 +688,7 @@
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Location = new System.Drawing.Point(355, 33);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(296, 213);
             this.panel4.TabIndex = 2;
@@ -698,7 +698,7 @@
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.lblAvDT);
             this.panel5.Location = new System.Drawing.Point(205, 155);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(91, 58);
             this.panel5.TabIndex = 1;
@@ -728,7 +728,7 @@
             // 
             this.pictureBox2.Image = global::HotelManagement.Properties.Resources.Deluxe_Twin;
             this.pictureBox2.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(295, 155);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -742,7 +742,7 @@
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(29, 33);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(296, 213);
             this.panel1.TabIndex = 0;
@@ -763,7 +763,7 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.lblAvDK);
             this.panel3.Location = new System.Drawing.Point(205, 155);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(91, 58);
             this.panel3.TabIndex = 1;
@@ -782,7 +782,7 @@
             // 
             this.pictureBox1.Image = global::HotelManagement.Properties.Resources.Deluxe_King;
             this.pictureBox1.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(295, 155);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -794,7 +794,7 @@
             this.guna2PictureBox2.Image = global::HotelManagement.Properties.Resources.image_removebg_preview;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(745, 25);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(136, 89);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -813,7 +813,7 @@
             this.Controls.Add(this.panelData);
             this.Controls.Add(this.panelAvailableRooms);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AdminDataForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminDataForm";
